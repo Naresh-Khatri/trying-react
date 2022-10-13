@@ -6,7 +6,7 @@ export default function Header(){
           <div className="container mx-auto flex flex-wrap p-5 flex-col md:flex-row items-center">
             <a className="flex title-font font-medium items-center text-white mb-4 md:mb-0" href="/">
               <img className='w-12' alt="logo" src={logoImg} />
-              <span className="ml-3 text-xl">Example Pvt Ltd. </span>
+              <span className="ml-3 text-xl">SANTOSH MISHRA & ASSOCIATES</span>
             </a>
             <nav className="md:ml-auto flex flex-wrap items-center text-base justify-center">
               <Link className="mr-10 hover:text-white" to='/'>Home</Link>

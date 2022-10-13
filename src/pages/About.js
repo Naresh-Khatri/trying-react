@@ -14,10 +14,10 @@ export default function Home() {
               Some of the key members of our firm are:
             </p>
             <h2 className="text-white text-2xl mb-2">
-              Example Name (Proprietor)
+              SANTOSH MISHRA & ASSOCIATES (Proprietor)
             </h2>
             <p className="mb-4">
-              Associate Chartered Accountant, Commerce Graduate CA Example Name
+              Associate Chartered Accountant, Commerce Graduate CA SANTOSH MISHRA & ASSOCIATES
               is a member of the Institute of Chartered Accountants of India
               (ICAI) since 2014. He has vast experience in consultancy of
               Indirect taxes and handling corporate affairs in different areas.

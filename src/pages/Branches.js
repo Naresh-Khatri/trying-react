@@ -35,7 +35,9 @@ export default function Home() {
       </section>
       <section className="text-gray-400 bg-gray-900 body-font">
         <div className="container px-5 py-24 mx-auto">
-        <h1 className="mb-20 text-white font-extrabold text-4xl sm:text-5xl lg:text-6xl tracking-tight text-center">Our Team</h1>
+          <h1 className="mb-20 text-white font-extrabold text-4xl sm:text-5xl lg:text-6xl tracking-tight text-center">
+            Our Team
+          </h1>
           <div className="flex flex-wrap -m-4">
             <div className="lg:w-1/3 lg:mb-0 mb-6 p-4">
               <div className="h-full text-center">

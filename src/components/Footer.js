@@ -93,12 +93,11 @@ export default function Footer() {
               Address
             </h2>
             <p>
-              D-707, Aditya Imperial Heights Behind Genpact Hafeezpet,
-              Hyderabad-500049.
+              660/15, Bajrang Vihar, Kursi Road, Lucknow-226026
               <br />
               Contact us : +91 9493462492
               <br />
-              Write us : admin@finspect.in
+              Write us : santosh.mishra.ca@gmail.com
             </p>
           </div>
           {/* <div className="lg:w-1/4 md:w-1/2 w-full px-4">
@@ -134,12 +133,15 @@ export default function Footer() {
       </div>
       <div className="bg-gray-800 bg-opacity-75">
         <div className="container px-5 py-6 mx-auto flex items-center sm:flex-row flex-col">
-          <a href='/' className="flex title-font font-medium items-center md:justify-start justify-center text-white">
+          <a
+            href="/"
+            className="flex title-font font-medium items-center md:justify-start justify-center text-white"
+          >
             <img alt="logo" className="w-12" src={logoImg} />
-            <span className="ml-3 text-xl">Example Pvt Ltd.</span>
+            <span className="ml-3 text-xl">SANTOSH MISHRA & ASSOCIATES</span>
           </a>
           <p className="text-sm text-gray-400 sm:ml-6 sm:mt-0 mt-4">
-            © 2022 Example Pvt Ltd.
+            © 2022 SANTOSH MISHRA & ASSOCIATES
           </p>
           <span className="inline-flex sm:ml-auto sm:mt-0 mt-4 justify-center sm:justify-start">
             <a href="/" className="text-gray-400">
