@@ -95,7 +95,8 @@ export default function Footer() {
             <p>
               660/15, Bajrang Vihar, Kursi Road, Lucknow-226026
               <br />
-              Contact us : +91 9493462492
+              Contact us : <br />
+              Mobile +91 9452044000 <br /> Phone (O) : 0522-4333-550
               <br />
               Write us : santosh.mishra.ca@gmail.com
             </p>
