@@ -73,7 +73,7 @@ export default function Footer() {
                   Contact US
                 </Link>
               </li>
-              <li>
+              {/* <li>
                 <Link to="/news" className="text-gray-400 hover:text-white">
                   News
                 </Link>
@@ -85,7 +85,7 @@ export default function Footer() {
                 >
                   Disclaimer
                 </Link>
-              </li>
+              </li> */}
             </nav>
           </div>
           <div className="lg:w-1/4 md:w-1/2 w-full px-4">
