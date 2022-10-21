@@ -50,6 +50,9 @@ export default function Header() {
             </svg>
           </button>
         </Link>
+        <Link className="mr-10 hover:text-white" to="/login">
+            Login
+          </Link>
       </div>
     </header>
   );
