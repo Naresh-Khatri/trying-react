@@ -1,7 +1,8 @@
+import { Box, Container } from "@chakra-ui/react";
 export default function Home() {
   return (
-    <>
-      <section className="text-gray-400 bg-gray-900 body-font px-10">
+    <Box className="text-gray-400 bg-gray-900 body-font px-10" >
+      <Container maxW={'6xl'}>
         <div className="container-middle container cont-page">
           <h1 className="mb-20 text-white font-extrabold text-4xl sm:text-5xl lg:text-6xl tracking-tight text-center">
             Business Valuation
@@ -28,8 +29,8 @@ export default function Home() {
             practicality of the advocated business plan/project. Financial
             feasibility is the main part as it gives a clear picture of whether
             the investment will earn higher ROI or will be a loss-bearing one.
-            Santosh Mishra &amp; Associates Chartered Accountants help you in analyzing
-            these steps:
+            Santosh Mishra &amp; Associates Chartered Accountants help you in
+            analyzing these steps:
           </p>
 
           <ul>
@@ -96,9 +97,7 @@ export default function Home() {
             <li>Variance tracking and analyzing</li>
           </ul>
         </div>
-        
-      </section>
-      
-    </>
+      </Container>
+    </Box>
   );
 }
