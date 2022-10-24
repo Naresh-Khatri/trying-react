@@ -17,7 +17,7 @@ import {
 
 const blogsData = [
   {
-    title: "What’s Next for Tax Competition?",
+    title: "What's Next for Tax Competition?",
     tags: ["Tax", "GST"],
     img: "https://images.unsplash.com/photo-1554224155-6726b3ff858f?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1611&q=80",
     content: `The recent agreement on a global minimum tax and other changes to tax rules around the world have called into question the future of tax competition. It is difficult to anticipate how tax competition will ultimately be impacted by these changes, although I seriously doubt that the usefulness of Tax Foundation's International Tax Competitiveness Index will be reduced in any meaningful way.
@@ -41,6 +41,14 @@ The World Bank and the OECD have recently published papers analyzing how the glo
 If that is what the next round of tax competition looks like, the Index will be there to capture it.
 The rules of tax competition are changing, but that does not mean the contest is over. It will take time to see how different countries react, but one of the main lessons of the Index is that countries can have principled tax policies while raising sufficient revenue to finance government programs. The Index will continue to show where policymakers are adapting their rules in ways that are narrow, preferential, and distortionary rather than being broadly supportive of work and investment.`,
   },
+  {
+    title: "GST Payment Online - How to Pay GST Online?",
+    tags: ["Tax", "GST"],
+    img: "https://media.istockphoto.com/id/1130669886/photo/wooden-letters-gst-and-money-coin-stack-on-red-table-background-financial-concept.jpg?s=612x612&w=0&k=20&c=m8dA4dsHFXSdohM-6EOJ5muD1OcT-eDG735S4yVzbZI=",
+    content: `You can make a GST payment either online or offline. Businesses must assess the tax that needs to be paid in cash after the offset of the input tax credit availed. Thereafter, it must generate a GST challan either before or after logging into the GST portal or while filing the GST return.
+
+    This article provides step-by-step instructions to follow for completing the GST payment for all types of taxpayers under GST.`,
+  },
 ];
 
 const BlogTags = (props) => {
@@ -63,7 +71,7 @@ export const BlogAuthor = (props) => {
       <Image
         borderRadius="full"
         boxSize="40px"
-        src="https://100k-faces.glitch.me/random-image"
+        src="https://ozgrozer.github.io/100k-faces/0/1/001987.jpg"
         alt={`Avatar of ${props.name}`}
       />
       <Text fontWeight="medium">{props.name}</Text>
