@@ -39,7 +39,7 @@ function Register() {
       return;
     }
     if (user) navigate("/dashboard");
-  }, [user, loading]);
+  }, [user, loading, navigate]);
   return (
     <Flex
       minH={"100vh"}

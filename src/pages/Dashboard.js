@@ -4,7 +4,6 @@ import { useNavigate } from "react-router-dom";
 // import "./Dashboard.css";
 import { auth, db, logout } from "../firebase";
 import {
-  doc,
   addDoc,
   query,
   collection,
@@ -19,9 +18,7 @@ import {
   FormLabel,
   Grid,
   GridItem,
-  HStack,
   Input,
-  SimpleGrid,
   Text,
   useToast,
   VStack,
